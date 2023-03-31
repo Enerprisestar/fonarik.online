@@ -1,0 +1,33 @@
+html , body {
+    margin: 0;
+    padding: 0;
+}
+
+.catalog{
+    width: 1150px;
+    display: grid;
+    margin: 25px auto 0px;
+    grid-template-columns:33.33% 33.33% 33.33%;
+}
+
+.catalog-card{
+   text-decoration: none;
+   color: black;
+}
+
+.catalog-card_header{
+text-align: center;
+}
+
+.catalog-card_img{
+display: block;
+margin: 0px auto;
+}
+
+.catalog-card_deskription{
+text-align: center;
+}
+
+.catalog-card:hover{
+    box-shadow: 1px -2px 22px 0px rgba(0,0,0,0.75);
+}
