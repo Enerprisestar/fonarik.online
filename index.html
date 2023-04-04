@@ -187,16 +187,24 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         function functionRef(){
             document.querySelector('.nav__menu').style.display = "block";
             document.querySelector('body').style.overflow = "hidden";
-            
-            dataLayer=({
+        }
+        function functionReff(){
+            document.querySelector('.nav__menu').style.display = "none";
+            document.querySelector('body').style.overflow = "visible";
+        }
+        headerbottomBlockwrapper__iconMenu.onclick = functionRef;
+        fachevronleft.onclick = functionReff;
+
+        dataLayer.push({ ecommerce: null });  // Clear the previous ecommerce object.
+dataLayer.push({
   event: "gtm-enhanced-ecommerce",
   ecommerce: {
-      transaction_id: "T12345",
+      transaction_id: "12345",
       affiliation: "Online Store",
       value: "59.89",
       tax: "4.90",
       shipping: "5.99",
-      currency: "EUR",
+      currency: "UAH",
       coupon: "SUMMER_SALE",
       items: [{
         item_name: "Triblend Android T-Shirt",
@@ -206,24 +214,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         item_category: "Apparel",
         item_variant: "Gray",
         quantity: 1
-      }, {
-        item_name: "Donut Friday Scented T-Shirt",
-        item_id: "67890",
-        price: 33.75,
-        item_brand: "Google",
-        item_category: "Apparel",
-        item_variant: "Black",
-        quantity: 1
       }]
   }
 });
-        }
-        function functionReff(){
-            document.querySelector('.nav__menu').style.display = "none";
-            document.querySelector('body').style.overflow = "visible";
-        }
-        headerbottomBlockwrapper__iconMenu.onclick = functionRef;
-        fachevronleft.onclick = functionReff;
     </script>
 </body>
 </html>
