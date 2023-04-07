@@ -43,7 +43,7 @@
 
 /* end basic settings */
 
-@media screen and (max-width: 1900px){
+@media screen and (max-width: 1900px) and (min-width: 1200px) {
     .catalog-card_img{
         height: 300px;
     }
