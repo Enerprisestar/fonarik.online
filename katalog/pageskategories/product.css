@@ -1,0 +1,476 @@
+.main_wrapper_card__slider,
+.main_wrapper_card__description {
+    display: inline-block;
+    width: 49.8%;
+}
+
+.bananaboom{
+    overflow: scroll;
+    max-height: 77%;
+}
+
+.header-rightBlock__counter{
+    display: inline-block;
+    padding: 1px 6px;
+    font-size: 15px;
+    font-family: Arial,Helvetica,sans-serif;
+}
+
+.basked__product__img_wrapper_link{
+    display: contents;
+}
+
+.busked__mobile{
+    position: relative;
+}
+
+.header-rightBlock__counter1{
+    cursor: default;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0px auto;
+    width: max-content;
+    padding: 10px 0px 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.identefikator{
+    display: none;
+}
+
+.busked__mobile_counter{
+    display: none;
+    font-family: Arial,Helvetica,sans-serif;
+    position: absolute;
+    background-color: white;
+    border-radius: 15px;
+    top: -4px;
+    right: -4px;
+    font-size: 10px;
+    padding: 1px 5px;
+}
+
+.main_wrapper_card__description{
+    padding-left: 13px;
+    padding-bottom: 42px;
+}
+
+.main_wrapper_card{
+    max-width: 1480px;
+    padding: 0px 25px;
+    margin: 0px auto 0px;
+    display: flex;
+}
+
+   .block_basked {
+            top: 0px;
+            padding-top: 10px;
+            right: 0px;
+            display: none;
+            position: fixed;
+            width: 30%;
+            height: 100%;
+            background-color: white;
+        }
+
+        .block_basked__img {
+            width: 100%;
+            height: 200px;
+            background-image: url("../../../imgCatalog/Снимок\ экрана\ 2023-04-11\ в\ 20.41.38.png");
+            background-repeat: no-repeat;
+            background-position: top 55% center;
+            background-size: cover;
+        }
+
+        .nav__menu_domen {
+            margin-bottom: 0px;
+        }
+
+        .oformitzakaz{
+            text-decoration: none;
+            color: black;
+            display: none;
+            background: #FEA526;
+            font-size: 18px;
+            padding: 12px 29%;
+            margin: 10px auto;
+            width: max-content;
+            border: 1px solid black;
+            cursor: pointer;
+        }
+
+        .backtoshop {
+            position: relative;
+            font-size: 18px;
+            padding: 12px 25%;
+            margin: 10px auto;
+            width: max-content;
+            border: 1px solid black;
+            cursor: pointer;
+        }
+
+        .exitbusked{
+            position: absolute;
+            top: 13px;
+            left: 9px;
+            font-size: 19px;
+        }
+
+        .zatemnenie{
+            display: none;
+            width: 100%;
+            height: 100%;
+            cursor: pointer;
+            position: fixed;
+            background: rgba(0, 0, 0, 0.35);
+            top: 0px;
+        }
+
+.main_wrapper_card__hero_textt{
+    display: none;
+}
+
+.main_wrapper_card__hero_text {
+    width: 90%;
+    font-size: 32px;
+    margin: 35px 0px 10px 0px;
+    font-family: Arial,Helvetica,sans-serif;
+    font-weight: 400;
+}
+
+.main_wrapper_card__price{
+    font-size: 28px;
+    margin: 40px 0px 25px 0px;
+    font-family: Arial,Helvetica,sans-serif;
+}
+
+
+.main_wrapper_card__onstock{
+    font-size: 14px;
+    margin-bottom: 40px;
+    font-family: Arial,Helvetica,sans-serif;
+    color: #17b260;
+}
+
+.main_wrapper_card__buttom_buy{
+    font-size: 18px;
+    margin-bottom: 30px;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 18px;
+    padding: 10px 16px;
+    font-family: Arial,Helvetica,sans-serif;
+    background: #FEA526;
+}
+
+.main_wrapper_card__item{
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    padding-top: 15px;
+    border-top: 1px solid black;
+}
+
+.main_wrapper_card__text{
+    font-size: 16px;
+    font-family: Arial,Helvetica,sans-serif;
+}
+
+
+
+/* товар в корзине */
+
+.basked__product{
+    padding: 15px;
+    display: flex;
+    border-bottom: 1px solid black;
+}
+
+.basked__product__wrapper{
+    width: 100%;
+}
+
+.basked__product__img{
+    margin-right: 15px;
+    background-image: url();
+    width: 70px;
+    height:70px;
+    background-repeat: no-repeat;
+    background-position: top 55% center;
+    background-size: cover;
+    text-decoration: none;
+}
+
+.basked__product__wrapper__text{
+    text-decoration: none;
+    color: black;
+    font: 87.5%/1.42857 "Helvetica Neue","Roboto","Segoe UI",sans-serif;
+    margin-bottom: 10px;
+    max-width: 305px;
+}
+
+.basked__product__wrapper__price{
+    font: 87.5%/1.42857 "Helvetica Neue","Roboto","Segoe UI",sans-serif;
+    margin-bottom: 10px;
+    cursor: default;
+}
+
+.basked__product__wrapper__counter_and_buttom_delete_product{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 15px;
+}
+
+
+.basked__product__wrapper__counter{
+    padding: 9px 20%;
+    position: relative;
+    width: max-content;
+    border: 1px solid black;
+    font-size: 16px;
+
+}
+
+.basked__product__wrapper__delete_product{
+    padding: 9px 11px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.basked__product__wrapper__counter__number{
+    cursor: default;
+}
+
+.wrapper__counter__left{
+position: absolute;
+cursor: pointer;
+left: 0px;
+top: 0px;
+padding: 10px;
+}
+
+.wrapper__counter__right{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+/* товар в корзине конец */
+
+@media screen and (max-width: 1200px) {
+.backtoshop{
+    padding: 12px 21%;
+}
+
+.oformitzakaz{
+    padding: 12px 27%;
+}
+
+.basked__product__wrapper {
+    width: 237px;
+}
+}
+
+@media screen and (max-width: 1000px) {
+.backtoshop{
+    font-size: 17px;
+    padding: 12px 16%;
+}
+
+.oformitzakaz{
+    font-size: 17px;
+    padding: 12px 22.5%;
+}
+
+.header-rightBlock__counter {
+    font-size: 13px;
+}
+
+.basked__product__img{
+    width: 50px;
+    height: 50px;
+}
+
+.basked__product__wrapper__text{
+    font-size: 13px;
+}
+
+.basked__product__wrapper{
+        width: 190px;
+}
+
+.basked__product__wrapper__counter{
+    font-size: 14px;
+}
+}
+
+
+@media screen and (max-width: 800px) {
+    .main_wrapper_card{
+        display: block;
+    }
+
+    .oformitzakaz {
+        font-size: 14px;
+        padding: 9px 23.5%;
+    }
+
+    .header-rightBlock__counter{
+        font-size: 10px;
+    }
+
+    .wrapper__counter__left{
+        padding: 8px;
+    }
+
+    .wrapper__counter__right{
+        padding: 8px;
+    }
+
+    .basked__product__wrapper__counter{
+        padding: 6px 20%;
+    }
+
+    .basked__product__wrapper__delete_product{
+        padding: 7px 11px;
+    }
+
+    .backtoshop{
+    font-size: 14px;
+    padding: 9px 17%;
+}
+
+.exitbuskedtwo{
+    top: 10px;
+    left: 5px;
+    font-size: 16px;
+}
+    .main_wrapper_card__slider,
+.main_wrapper_card__description {
+    display:block;
+    width: 100%;
+}
+
+.main_wrapper_card__hero_textt{
+    width: 90%;
+    display: block;
+    font-size: 32px;
+    margin: 35px 0px 10px 0px;
+    font-family: Arial,Helvetica,sans-serif;
+    font-weight: 400;
+}
+
+.main_wrapper_card__hero_text{
+display: none;
+}
+
+.main_wrapper_card__onstock{
+    margin: 0px;
+    font-size: 20px;
+}
+
+.main_wrapper_card__price{
+    margin: 13px 0px 16px 0px;
+    font-size: 33px;
+}
+
+.main_wrapper_card__buttom_buy{
+    font-size: 27px;
+}
+.main_wrapper_card__item{
+    font-size: 30px;
+    margin: 0px;
+    padding-bottom: 15px;
+}
+
+.main_wrapper_card__text{
+    font-size: 24px;
+}
+
+.basked__product__wrapper__delete_product{
+    font-size: 13px;
+}
+}
+
+@media screen and (max-width: 700px) {
+.block_basked{
+width:91%;
+}
+
+.oformitzakaz {
+    font-size: 14px;
+    padding: 9px 19.5%;
+}
+
+.basked__product__wrapper__counter{
+    padding: 6px 9%;
+}
+
+.basked__product__wrapper{
+    width: 100%;
+}
+
+.basked__product__img {
+    width: 120px;
+    height: 74px;
+    background-size: contain;
+}
+
+.basked__product__wrapper__text{
+    max-width: 75%;
+}
+}
+
+
+@media screen and (max-width: 450px) {
+    .main_wrapper_card{
+        display: block;
+    }
+
+    .basked__product__wrapper__counter{
+        padding: 6px 18%;
+    }
+    .main_wrapper_card__slider,
+.main_wrapper_card__description {
+    display:block;
+    width: 100%;
+}
+
+.main_wrapper_card__hero_textt{
+    width: 90%;
+    display: block;
+    font-size: 27px;
+    margin: 35px 0px 10px 0px;
+    font-family: Arial,Helvetica,sans-serif;
+    font-weight: 400;
+}
+
+.main_wrapper_card__hero_text{
+display: none;
+}
+
+.main_wrapper_card__onstock{
+    margin: 0px;
+    font-size: 19px;
+}
+
+.main_wrapper_card__price{
+    margin: 13px 0px 16px 0px;
+    font-size: 31px;
+}
+
+.main_wrapper_card__buttom_buy{
+    font-size: 26px;
+}
+.main_wrapper_card__item{
+    font-size: 26px;
+    margin: 0px;
+    padding-bottom: 15px;
+}
+
+.main_wrapper_card__text{
+    font-size: 22px;
+}
+}
