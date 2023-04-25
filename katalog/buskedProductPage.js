@@ -270,7 +270,7 @@ availabilityProductInBusked.forEach(function (item, index, arr) {
 let idkdkdkddk=null;
 
 function addToBasked(identefikatorProductKatalog) {
-
+alert(123)
   document.querySelector('body').style.overflow = "hidden";
 
   if(document.querySelector('.main_wrapper_card__hero_text')===null){
