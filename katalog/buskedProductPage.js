@@ -271,23 +271,29 @@ let idkdkdkddk=null;
 
 function addToBasked(identefikatorProductKatalog) {
 alert(111)
+  
+  
+  alert(identefikatorProductKatalog.fromElement)
+  alert(identefikatorProductKatalog.srcElement)
+//   for (key in identefikatorProductKatalog) {
+//     alert(String(key))
+//   }
+  
+  
+  
+  
+  
+  
   document.querySelector('body').style.overflow = "hidden";
-alert(112)
   if(document.querySelector('.main_wrapper_card__hero_text')===null){
-    alert(200)
     var identefikatorProductKatalogNumber=identefikatorProductKatalog.path[0].classList[2].replace(/[^0-9]/g, "");
     idkdkdkddk=identefikatorProductKatalogNumber
     availabilityProductInBusked[availabilityProductInBusked.length] = {
       id: identefikatorProductKatalogNumber,
     }
-    alert(201)
+
   }
   else{
-    alert(300)
-alert(identefikatorProductKatalog.fromElement)
-//   for (key in identefikatorProductKatalog) {
-//     alert(String(key))
-//   }
     var identefikatorProductKatalogNumberProductPage=identefikatorProductKatalog.path[0].classList[2].replace(/[^0-9]/g, "");
     availabilityProductInBusked[availabilityProductInBusked.length] = {
       id: identefikatorProductKatalogNumberProductPage,
