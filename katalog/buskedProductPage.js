@@ -285,6 +285,7 @@ alert(112)
   else{
     alert(300)
     var identefikatorProductKatalogNumberProductPage=identefikatorProductKatalog.path[0].classList[2].replace(/[^0-9]/g, "");
+    alert(3001)
     availabilityProductInBusked[availabilityProductInBusked.length] = {
       id: identefikatorProductKatalogNumberProductPage,
     }
