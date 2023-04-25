@@ -270,7 +270,7 @@ availabilityProductInBusked.forEach(function (item, index, arr) {
 let idkdkdkddk=null;
 
 function addToBasked(identefikatorProductKatalog) {
-alert(123)
+alert(111)
   document.querySelector('body').style.overflow = "hidden";
 
   if(document.querySelector('.main_wrapper_card__hero_text')===null){
@@ -287,7 +287,7 @@ alert(123)
     }
   }
 
-
+alert(222)
   // добавление товара в базу данных корзины и отрисовка 
 
 
@@ -446,7 +446,7 @@ if(idProduct!==null){
 else{
   availabilityProductInBusked[availabilityProductInBusked.findIndex(function (item) { if (item.id === identefikatorProductKatalogNumber) { return true } })].amount = 1;
 }
-
+alert(222)
   // интерфейс корзины счетчик товаров внутри
 
 
@@ -470,7 +470,7 @@ else{
     buskedmobilecounter.style.display = "block"
   }
   sumcolproductandprice();
-
+alert(333)
   availabilityProductInBusked.forEach(function (item, index, arr) {
     let b = document.querySelector(`.counterleft${item.id}`);
     let bb = document.querySelector(`.counterright${item.id}`);
