@@ -284,6 +284,10 @@ alert(112)
   }
   else{
     alert(300)
+    alert(identefikatorProductKatalog)
+    alert(identefikatorProductKatalog.path[0])
+    alert(identefikatorProductKatalog.path[0].classList[2])
+    alert(identefikatorProductKatalog.path[0].classList[2].replace(/[^0-9]/g, ""))
     var identefikatorProductKatalogNumberProductPage=identefikatorProductKatalog.path[0].classList[2].replace(/[^0-9]/g, "");
     alert(3001)
     availabilityProductInBusked[availabilityProductInBusked.length] = {
