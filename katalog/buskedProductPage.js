@@ -284,18 +284,14 @@ alert(112)
   }
   else{
     alert(300)
-    alert(JSON. stringify(identefikatorProductKatalog));
-    alert(identefikatorProductKatalog.path[0])
-    alert(identefikatorProductKatalog.path[0].classList[2])
-    alert(identefikatorProductKatalog.path[0].classList[2].replace(/[^0-9]/g, ""))
+  for (key in identefikatorProductKatalog) {
+    alert(String(key))
+  }
     var identefikatorProductKatalogNumberProductPage=identefikatorProductKatalog.path[0].classList[2].replace(/[^0-9]/g, "");
-    alert(3001)
     availabilityProductInBusked[availabilityProductInBusked.length] = {
       id: identefikatorProductKatalogNumberProductPage,
     }
-    alert(301)
   }
-alert(99999)
 
   // добавление товара в базу данных корзины и отрисовка 
 
