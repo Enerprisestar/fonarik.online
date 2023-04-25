@@ -272,22 +272,26 @@ let idkdkdkddk=null;
 function addToBasked(identefikatorProductKatalog) {
 alert(111)
   document.querySelector('body').style.overflow = "hidden";
-
+alert(112)
   if(document.querySelector('.main_wrapper_card__hero_text')===null){
+    alert(200)
     var identefikatorProductKatalogNumber=identefikatorProductKatalog.path[0].classList[2].replace(/[^0-9]/g, "");
     idkdkdkddk=identefikatorProductKatalogNumber
     availabilityProductInBusked[availabilityProductInBusked.length] = {
       id: identefikatorProductKatalogNumber,
     }
+    alert(201)
   }
   else{
+    alert(300)
     var identefikatorProductKatalogNumberProductPage=identefikatorProductKatalog.path[0].classList[2].replace(/[^0-9]/g, "");
     availabilityProductInBusked[availabilityProductInBusked.length] = {
       id: identefikatorProductKatalogNumberProductPage,
     }
+    alert(301)
   }
+alert(99999)
 
-alert(222)
   // добавление товара в базу данных корзины и отрисовка 
 
 
@@ -392,7 +396,6 @@ else{
     baskedproduct.appendChild(baskedproductimgwrapperlink);
     baskedproduct.appendChild(baskedproductwrapper);
   
-  console.log(identefikatorProductKatalogNumber)
     let baskedproducttextwrapperlink = document.createElement("a")
     baskedproducttextwrapperlink.classList.add("basked__product__wrapper__text",`basked__product__wrapper__text${identefikatorProductKatalogNumber}`);
     baskedproducttextwrapperlink.href=window.location.href;
@@ -446,7 +449,7 @@ if(idProduct!==null){
 else{
   availabilityProductInBusked[availabilityProductInBusked.findIndex(function (item) { if (item.id === identefikatorProductKatalogNumber) { return true } })].amount = 1;
 }
-alert(222)
+
   // интерфейс корзины счетчик товаров внутри
 
 
@@ -470,7 +473,7 @@ alert(222)
     buskedmobilecounter.style.display = "block"
   }
   sumcolproductandprice();
-alert(333)
+
   availabilityProductInBusked.forEach(function (item, index, arr) {
     let b = document.querySelector(`.counterleft${item.id}`);
     let bb = document.querySelector(`.counterright${item.id}`);
