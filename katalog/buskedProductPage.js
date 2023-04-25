@@ -284,9 +284,10 @@ alert(112)
   }
   else{
     alert(300)
-  for (key in identefikatorProductKatalog) {
-    alert(String(key))
-  }
+alert(identefikatorProductKatalog.fromElement)
+//   for (key in identefikatorProductKatalog) {
+//     alert(String(key))
+//   }
     var identefikatorProductKatalogNumberProductPage=identefikatorProductKatalog.path[0].classList[2].replace(/[^0-9]/g, "");
     availabilityProductInBusked[availabilityProductInBusked.length] = {
       id: identefikatorProductKatalogNumberProductPage,
