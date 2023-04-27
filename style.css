@@ -1,0 +1,1119 @@
+/* menu mobile  */
+
+.menu__phone__text{
+    font-size: 20px;
+    margin: 0px;
+    padding: 10px 0px 15px 20px;
+    font-family:"Helvetica Neue","Roboto","Segoe UI",sans-serif;
+}
+
+.catalog-card_header__wrapper{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+.exitbuskedtwo{
+    position: absolute;
+    top: 13px;
+    left: 15px;
+    cursor: pointer;
+    padding: 0px 5px;
+    font-size: 18px;
+}
+
+.fa-chevron-left{
+    left: 27px;
+    top: 15px;
+    position: absolute;
+}
+
+.header__children{
+    display:inline-block;
+}
+
+.header-rightBlock{
+    cursor:pointer;
+}
+
+.nav__menu{
+    display: none;
+    height: 100%;
+    text-align: left;
+    padding: 10px;
+    position: absolute;
+    top: 0px;
+    width: 89%;
+    background-color: white;
+    color: black;
+}
+
+.nav__menu_domenn{
+    font-size: 22px;
+    cursor: default;
+   margin: 0px auto;
+    font-family: 'Roboto', sans-serif;
+    width: min-content;
+}
+
+.nav__menu_domen{
+border-bottom: 1px solid black;
+padding-bottom:10px ;
+margin-bottom: 5px;
+}
+
+.nav__menu__kategories_link{
+    text-decoration: none;
+    color: black;
+    font-size: 19px;
+}
+
+.nav__menu__kategories{
+    padding:10px 0px 10px 20px;
+    font: 87.5%/1.42857 "Helvetica Neue","Roboto","Segoe UI",sans-serif;
+}
+
+.wrapper__menu_item_menu{
+    display: block;
+    text-decoration: none;
+    color: black;
+    padding:10px 0px 10px 20px;
+    font-size: 19px;
+    font-family:"Helvetica Neue","Roboto","Segoe UI",sans-serif;
+}
+
+.wrapper__menu_item{
+    border-top: 1px solid black;
+    margin-top: 5px;
+    padding-top: 5px;
+}
+
+.menu__phone{
+    border-top: 1px solid black;
+    margin-top: 5px;
+    padding-top: 10px;
+}
+
+.menu__phone__link{
+    padding:8px 0px 8px 20px;
+    font-size: 19px;
+    text-decoration: none;
+    color: black;
+    font-family:"Helvetica Neue","Roboto","Segoe UI",sans-serif;
+}
+
+    .fa-phone-volume {
+        font-size: 18px;
+    }
+    
+/* menu mobile end */
+
+/* начало верхней части хедера */
+
+
+html,
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.header{
+    background-color: #FCCC26;
+}
+
+.header-wrapper {
+    max-width: 1470px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    padding: 5px 25px 10px 25px;
+}
+
+.busked__mobile{
+    display: none;
+    cursor: pointer;
+}
+
+.header-bottomBlock-wrapper__iconMenu{
+    display: none;
+    cursor: pointer;
+}
+
+.header__children {
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    margin-right: 15px;
+}
+
+.catalog {
+    max-width: 1470px;
+    margin: 0px auto 0px;
+}
+
+.header__busked {
+    font-family: 'Roboto', sans-serif;
+    margin-right: 0px;
+}
+
+.header--leftBlock {
+    width: max-content;
+}
+
+
+/* конец верхней части хедера */
+
+.hero-logo {
+    display: block;
+    width: 80px;
+    height: 80px;
+    background-image: url("./imgCatalog/logo.png");
+    background-repeat: no-repeat;
+    background-position: top 55% center;
+    background-size: cover;
+    text-decoration: none;
+}
+
+.header__kategories__item {
+    display: inline-block;
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header__kategories__item:hover{
+    background-color: rgb(31%, 31%, 32%, 0.7);
+    transition: background-color 0.175s;
+}
+
+.number__phone_link {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.header-bottomBlock {
+    background-image: url(./imgCatalog/фон.jpg);
+    height: 800px;
+    background-repeat: no-repeat;
+    background-position: top 55% center;
+    background-size: cover;
+}
+
+.header-bottomBlock-wrapper {
+    max-width: 1470px;
+    margin: 0px auto;
+    background: rgba(161, 21, 207, 0.0);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    padding: 3px 25px 3px 25px;
+}
+
+
+/* конец второй части хедера и фона */
+
+.main-wrapper-headerText {
+    display: flex;
+    justify-content: center;
+}
+
+.main-headerText {
+    background-color: #FCCC26;
+    display: block;
+    padding: 9px 18px;
+    margin:35px 0px;
+    cursor: default;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main {
+    max-width: 1480px;
+    padding: 0px 25px;
+    margin: 0px auto 0px;
+}
+
+/* new product */
+
+.wrapper-card-newProduct{
+    display: grid;
+    grid-template-rows:1;
+    grid-template-columns:25% 25% 25% 25%;
+}
+
+.catalog-card {
+    padding: 5px 10px;
+    position: relative;
+    text-decoration: none;
+    color: black;
+    box-shadow: 0px 0px 20px -5px transparent;
+    border: transparent 1px solid;
+}
+
+.catalog-card::before{
+    content: "Новинка";
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color:#3da5ca;
+    padding: 5px 13px 5px 10px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 0 3px 3px 0;
+}
+
+.catalog-card_img {
+    background-image: url(./imgCatalog/logo.png);
+    height: 385px;
+    background-repeat: no-repeat;
+    background-position: top 55% center;
+    background-size: cover;
+}
+
+.catalog-card_header{
+    margin: 5px 0px 0px 0px;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 16px;
+    font-weight: 200;
+    text-decoration: none;
+    color: black;
+}
+
+.catalogggg{
+    text-decoration: none;
+}
+
+.catalog-card_price{
+    margin: 10px 0px;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.button__sell_product{
+    cursor: pointer;
+    display: inline-block;
+    font-family: Arial,Helvetica,sans-serif;
+    padding: 8px 16px;
+    color: transparent;
+    margin: 0px 0px 10px 0px ;
+    background-color: transparent;
+}
+
+.catalog-card:hover {
+    box-shadow: 0px 0px 20px -5px rgba(0,0,0,0.75);
+    border: rgb(252, 204, 38) 1px solid;
+    transition:box-shadow  0.175s ;
+    transition:border  0.175s ;
+}
+
+.catalog-card:hover .button__sell_product{
+color: black;
+background-color: #FEA526;
+}
+
+
+/* new product end */
+
+
+
+/* <!-- <преимущества начало --> */
+
+.main-wrapper-preimushestva{
+    margin: 0px auto;
+    padding: 70px 0px;
+    max-width: 1470px;
+    display: flex;
+    justify-content:space-around ;
+}
+
+.main-wrapper-preimushestva__item{
+display: block;
+margin: 0px auto;
+width: 90px;
+height: 90px;
+}
+
+.main-wrapper-preimushestva__text{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    cursor: default;
+}
+
+/* <!-- <преимущества начало конец --> */
+
+
+
+/* footer */
+
+
+.footer{
+    background-color: black;
+}
+
+.footer__wrapper{
+    max-width:1470px ;
+    margin: 0px auto;
+    display: flex;
+    color: white;
+    align-items: center;
+    padding: 0px 15px 15px;
+}
+
+.footer__logo{
+    width: 100px;
+    height: 100px;
+}
+
+.footer-wrapper-column{
+    width: 60%;
+    display:flex;
+    justify-content: space-around;
+}
+
+.footer-column{
+    font-family: 'Roboto', sans-serif;
+    list-style-type:none;
+}
+
+.footer__img_wrapper{
+    margin-left: 25px;
+    margin-right: 22%;
+}
+
+.footer-column__item{
+    padding: 5px 0px;
+    font-size: 14px;
+}
+
+.footer-column__item__link{
+    text-decoration: none;
+    color: white;
+}
+
+
+.footer-column__item__first{
+    color: #FCCC26;
+    cursor: default;
+}
+
+/* footer end */
+/* @media screen and (max-height: 750px) {
+.bananaboom{
+    height: 73%;
+}
+}
+
+@media screen and (max-height: 630px) {
+    .bananaboom{
+        height: 69%;
+    }
+    } */
+
+
+@media screen and (max-width: 1100px) {
+    .header__children{
+        font-size: 14px;
+    }
+}
+
+
+
+/* media 1000px*/
+
+@media screen and (max-width: 1000px) {
+ .button__sell_product{
+     display: block;
+     width: max-content;
+     color: black;
+     background-color: #FEA526;
+     margin: 0px auto;
+     font-size: 14px;
+     padding: 6px 12px;
+ }
+
+ .header__children {
+    font-size: 14px;
+}
+
+ .main-headerText{
+     margin: 25px 0px;
+     padding: 6px 14px;
+ }
+
+ .footer__logo{
+     width: 80px;
+     height: 80px;
+ }
+
+ .main-wrapper-preimushestva__text{
+     font-size: 15px;
+ }
+ 
+ .main-wrapper-preimushestva{
+     padding: 55px 0px;
+ }
+
+ .wrapper-card-newProduct{
+    grid-template-columns: 25% 25% 25% 25%;
+ }
+
+ .catalog-card_img{
+height: 270px;
+ }
+
+ .catalog-card_header{
+     font-size: 14px;
+ }
+
+ .catalog-card_price{
+     font-size: 15px;
+ }
+
+ .footer-column__item{
+     font-size: 12px;
+ }
+
+ .footer__img_wrapper{
+     margin-right: 15%;
+ }
+
+ .header-bottomBlock{
+     background-position: 34%;
+     height: 565px;
+ }
+ 
+ .header__kategories__item{
+     font-size: 17px;
+ }
+
+ .number__phone_link{
+     font-size: 16px;
+ }
+
+ .hero-logo{
+     width: 60px;
+     height: 60px;
+ }
+
+ .header__children{
+     font-size: 12px;
+ }
+
+ .catalog-card::before{
+    content: "Новинка";
+    position: absolute;
+    top: 10px;
+    font-size: 12px;
+    left: 10px;
+    background-color:#3da5ca;
+    padding: 4px 9px 4px 7px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 0 3px 3px 0;
+}
+  }
+
+
+  /* media 1000px end */
+
+  /* media 870px*/
+
+  @media screen and (max-width: 870px) {
+.header__children{
+    font-size: 11px;
+}
+  }
+
+
+  /* media 800px*/
+
+@media screen and (max-width: 800px) {
+
+    .exitbuskedtwo{
+        position: absolute;
+        top: 11px;
+        left: 16px;
+        cursor: pointer;
+        padding: 0px 5px;
+        font-size: 15px;
+    }
+
+    .catalog-card_img{
+        height: 200px;
+    }
+
+    .catalog-card::before{
+        content: "Новинка";
+        position: absolute;
+        top: 10px;
+        font-size: 11px;
+        left: 10px;
+        background-color:#3da5ca;
+        padding: 3px 7px 3px 5px;
+        color: white;
+        font-family: 'Roboto', sans-serif;
+        border-radius: 0 3px 3px 0;
+    }
+
+    .catalog-card_header{
+        font-size: 13px;
+    }
+
+    .catalog-card_price{
+        font-size: 13px;
+    }
+
+    .button__sell_product {
+        display: block;
+        width: max-content;
+        color: black;
+        background-color: #FEA526;
+        margin: 0px auto;
+        font-size: 13px;
+        padding: 5px 10px;
+    }
+
+    .main-wrapper-preimushestva {
+        padding: 40px 0px;
+    }
+
+    .main-wrapper-preimushestva__text {
+        font-size: 12px;
+    }
+
+    .main-wrapper-preimushestva__item{
+        width: 60px;
+        height: 60px;
+    }
+
+    .main-headerText{
+        font-size: 15px;
+    }
+
+    .footer-column__item__link{
+        font-size: 12px;
+    }
+
+    .header__children{
+        font-size: 9px;
+    }
+
+    .header__kategories__item{
+        font-size: 14px;
+    }
+
+    .hero-logo{
+        height: 45px;
+        width: 45px;
+    }
+
+    .number__phone_link{
+        font-size: 14px;
+    }
+
+    .fa-phone-volume{
+        font-size: 13px;
+    }
+
+    .footer__img_wrapper{
+        margin-right: 4%;
+    }
+
+    .footer-wrapper-column{
+        width: 76%;
+    }
+    
+
+}
+
+  /* media 800px end */
+ 
+
+  /* media 700px*/
+
+@media screen and (max-width: 700px) {
+
+
+    .exitbuskedtwo{
+        position: absolute;
+        top: 11px;
+        left: 25px;
+        cursor: pointer;
+        padding: 0px 5px;
+        font-size: 15px;
+    }
+
+    .header-wrapper{
+    display: none;
+    }
+
+    .header__kategories__item{
+        display: none;
+    }
+
+    .header__kategories{
+        display: none;
+    }
+
+    .number__phone{
+        display: none;
+    }
+
+    .busked__mobile{
+        display: block;
+    }
+
+    .header-bottomBlock-wrapper{
+        background-color: black;
+    }
+
+    .header__busked{
+        color: white;
+    }
+
+    .header-bottomBlock-wrapper__iconMenu{
+        display: block;
+    }
+
+    .header-bottomBlock-wrapper__iconMenu:focus .nav__menu{
+display: block;
+    }
+
+    .footer-column__item{
+        font-size: 10px;
+    }
+
+    .footer__img_wrapper{
+        width: 10%;
+    }
+
+    .main-wrapper-preimushestva__text{
+        font-size: 10px;
+    }
+
+    .main-wrapper-preimushestva__item{
+        height: 50px;
+        width: 50px;
+    }
+
+    .catalog-card_img{
+        height: 155px;
+    }
+
+    .catalog-card_header{
+        font-size: 11px;
+    }
+
+    .catalog-card_price{
+        font-size: 10px;
+    }
+
+    .button__sell_product{
+        font-size: 9px;
+        padding: 4px 7px;
+        width: max-content;
+    }
+
+    .main-headerText{
+        margin: 15px 0px;
+        font-size: 13px;
+    }
+
+    .main-wrapper-preimushestva{
+        padding: 20px 0px;
+    }
+
+    .footer-column__item__link{
+        font-size: 10px;
+    }
+
+    .catalog-card::before {
+        content: "Новинка";
+        position: absolute;
+        top: 10px;
+        font-size: 10px;
+    }
+
+    .header-bottomBlock{
+        height: 400px;
+    }
+
+    .button__sell_product{
+        margin: 0px;
+    }
+    
+}
+
+
+  /* media 700px end */
+
+   /* media 600px */
+
+   @media screen and (max-width: 600px) {
+    .catalog-card{
+        padding: 10px 5px;
+    }
+
+    .catalog-card_img{
+        height: 273px;
+    }
+
+    .catalog-card::before {
+        content: "Новинка";
+        position: absolute;
+        top: 3px;
+        left: 3px;
+        font-size: 18px;
+        padding: 4px 10px;
+    }
+
+    .main {
+        max-width: 1480px;
+        padding: 0px 10px;
+        margin: 0px auto 0px;
+    }
+    
+    .catalog-card_header{
+        font-size: 21px;
+        font-family: 'Roboto', sans-serif;
+        margin: 5px 0px 0px 0px;
+        font-weight: 400;
+    }
+
+    .catalog-card_price{
+        font-size: 22px;
+        margin: 6px 0px;
+        text-align: center;
+    }
+
+    .button__sell_product{
+        padding: 6px 15px;
+        font-size: 23px;
+        width: max-content;
+        margin: 0px auto;
+    }
+
+    .main-headerText {
+        margin: 15px 0px;
+        font-size: 21px;
+        padding: 8px 13px;
+    }
+
+    .main-wrapper-preimushestva {
+        padding: 10px 0px;
+        display: block;
+    }
+
+    .main-wrapper-preimushestva__item {
+        height: 105px;
+        width: 105px;
+    }
+
+    .main-wrapper-preimushestva__text {
+        font-size: 21px;
+        text-align: center;
+        margin: 10px 0px;
+    }
+
+    .footer-column__item__link {
+        font-size: 8px;
+    }
+
+    .footer-column__item {
+        font-size: 8px;
+    }
+
+    .footer__img_wrapper{
+        display: none;
+    }
+
+    .footer-wrapper-column{
+        width: 100%;
+    }
+
+    .footer__wrapper{
+        padding: 0px 5px 10px;
+    }
+
+    .header-bottomBlock {
+        height: 360px;
+    }
+
+    .wrapper-card-newProduct {
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 50% 50%;
+    }
+
+    .footer-column{
+        padding: 0px;
+    }
+
+    .footer-column__item__link{
+        font-size: 17px;
+    }
+
+    .footer-column3{
+        display: none;
+    }
+
+    .footer-column__item {
+        font-size: 19px;
+    }
+    
+  }
+
+    /* media 600px end */
+
+   /* media 500px */
+
+   @media screen and (max-width: 500px) {
+
+
+    .catalog-card{
+        padding: 10px 5px;
+    }
+
+    .catalog-card_img{
+        height: 220px;
+    }
+
+    .catalog-card::before {
+        content: "Новинка";
+        position: absolute;
+        top: 3px;
+        left: 3px;
+        font-size: 16px;
+        padding: 4px 8px;
+    }
+
+    .main {
+        max-width: 1480px;
+        padding: 0px 10px;
+        margin: 0px auto 0px;
+    }
+    
+    .catalog-card_header{
+        font-size: 18px;
+        font-family: 'Roboto', sans-serif;
+        margin: 5px 0px 0px 0px;
+        font-weight: 400;
+    }
+
+    .catalog-card_price{
+        font-size: 19px;
+        margin: 6px 0px;
+        text-align: center;
+    }
+
+    .button__sell_product{
+        padding: 5px 10px;
+        font-size: 21px;
+        width:max-content;
+        margin: 0px auto;
+    }
+
+    .main-headerText {
+        margin: 15px 0px;
+        font-size: 20px;
+        padding: 7px 10px;
+    }
+
+    .main-wrapper-preimushestva {
+        padding: 10px 0px;
+        display: block;
+    }
+
+    .main-wrapper-preimushestva__item {
+        height: 90px;
+        width: 90px;
+    }
+
+    .main-wrapper-preimushestva__text {
+        font-size: 17px;
+        text-align: center;
+        margin: 10px 0px;
+    }
+
+    .footer-column__item {
+        font-size: 8px;
+    }
+
+    .footer__img_wrapper{
+        display: none;
+    }
+
+    .footer-wrapper-column{
+        width: 100%;
+    }
+
+    .footer__wrapper{
+        padding: 0px 5px 10px;
+    }
+
+    .header-bottomBlock {
+        height: 330px;
+    }
+
+    .wrapper-card-newProduct {
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 50% 50%;
+    }
+
+    .footer-column{
+        padding: 0px;
+    }
+
+    .footer-column__item__link{
+        font-size: 15px;
+    }
+
+    .footer-column3{
+        display: none;
+    }
+
+    .footer-column__item {
+        font-size: 17px;
+    }
+    
+  }
+
+    /* media 500px end */
+
+    
+
+
+ /* media 400px */
+  @media screen and (max-width: 400px) {
+
+    .exitbuskedtwo{
+        position: absolute;
+        top: 11px;
+        left: 20px;
+        cursor: pointer;
+        padding: 0px 5px;
+        font-size: 15px;
+    }
+
+    .catalog-card{
+        padding: 10px 5px;
+    }
+
+    .catalog-card_img{
+        height: 180px;
+    }
+
+    .catalog-card::before {
+        content: "Новинка";
+        position: absolute;
+        top: 3px;
+        left: 3px;
+        font-size: 14px;
+        padding: 3px 6px;
+    }
+
+    .main {
+        max-width: 1480px;
+        padding: 0px 5px;
+        margin: 0px auto 0px;
+    }
+    
+    .catalog-card_header{
+        font-size: 16px;
+        font-family: 'Roboto', sans-serif;
+        margin: 5px 0px 0px 0px;
+        font-weight: 400;
+    }
+
+    .catalog-card_price{
+        font-size: 16px;
+        margin: 5px 0px;
+        text-align: center;
+    }
+
+    .button__sell_product{
+        padding: 5px 8px;
+        font-size: 19px;
+        width:max-content;
+        margin: 0px auto;
+    }
+
+    .main-headerText {
+        margin: 13px 0px;
+        font-size: 18px;
+        padding: 6px 9px;
+    }
+
+    .main-wrapper-preimushestva {
+        padding: 10px 0px;
+        display: block;
+    }
+
+    .main-wrapper-preimushestva__item {
+        height: 80px;
+        width: 80px;
+    }
+
+    .main-wrapper-preimushestva__text {
+        font-size: 16px;
+        text-align: center;
+        margin: 10px 0px;
+    }
+
+    .footer-column__item__link {
+        font-size: 8px;
+    }
+
+    .footer-column__item {
+        font-size: 8px;
+    }
+
+    .footer__img_wrapper{
+        display: none;
+    }
+
+    .footer-wrapper-column{
+        width: 100%;
+    }
+
+    .footer__wrapper{
+        padding: 0px 5px 10px;
+    }
+
+    .header-bottomBlock {
+        height: 330px;
+    }
+
+    .wrapper-card-newProduct {
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 50% 50%;
+    }
+
+    .footer-column{
+        padding: 0px;
+    }
+
+    .footer-column__item__link{
+        font-size: 13px;
+    }
+
+    .footer-column3{
+        display: none;
+    }
+
+    .footer-column__item {
+        font-size: 15px;
+    }
+    
+  }
+
+   /* media 400px end */
